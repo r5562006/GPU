@@ -28,7 +28,7 @@ GPU 的設計讓它能夠進行大量的並行計算。這一特性特別適合�
 ## ROCm 和 CUDA 🔧
 在 GPU 生態系統中，兩個重要的開發框架是 ROCm（Radeon Open Compute） 和 CUDA（Compute Unified Device Architecture）。
 
-- ROCm
+### ROCm
  - 簡介：ROCm 是 AMD 開發的開放式計算平台，旨在為其 GPU 提供支持。它支持多種編程語言和庫，使開發者能夠更輕鬆地使用 GPU 進行計算。
 
 ### 特點：
@@ -39,7 +39,7 @@ GPU 的設計讓它能夠進行大量的並行計算。這一特性特別適合�
  - 優勢：ROCm 的設計允許開發者無縫地在不同的 AMD GPU 之間進行切換，這為開發者提供了更大的靈活性。
 
  
-- CUDA
+### CUDA
  - 簡介：CUDA 是 NVIDIA 開發的並行計算架構，使開發者能夠使用 C/C++ 等語言來編寫能夠在 NVIDIA GPU 上執行的程式。
 
  ### 特點：
